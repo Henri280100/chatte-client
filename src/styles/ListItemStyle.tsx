@@ -29,4 +29,10 @@ export const ListItemStyle = StyleSheet.create({
       height: 40,
       borderRadius: 20,
     },
+    chatItem: {
+      padding: 12,
+      marginBottom: 8,
+      backgroundColor: '#f0f0f0',
+      borderRadius: 8,
+    },
   });

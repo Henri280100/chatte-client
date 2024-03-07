@@ -1,7 +1,19 @@
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { HomeScreen } from "./src/screens";
 
 
-function App() {
-  
+const App: React.FC = () => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <HomeScreen/>
+    </SafeAreaView>
+  )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
 
 export default App;
